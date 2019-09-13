@@ -1,0 +1,154 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Satisfy', cursive;
+  color: #66BFBF;
+  /*width:10px;
+  margin: 0 auto 0 auto; this means top right left and bottom
+  margin: 0 auto means topdown-0 leftright-auto*/
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.comp {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.hanuman {
+  width: 35%;
+  float: left;
+  margin-right: 30px
+}
+
+.profilepic1 {
+  width: 12%;
+}
+
+.top-container {
+  background-color: #d2fafb;
+  padding-top: 150px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 350px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto 100px auto;
+  text-align: left;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg, #aee 0%, #8cc 49%, #599 51%, #8cc 100%);
+  border-radius: 8px;
+  border: 1px solid #6aa;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 1), 0px 1px 3px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4)
+}
+
+.button>div {
+  color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+}
+
+.button>i {
+  font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static
+}
+
+.button>.ld {
+  font-size: initial
+}
+
+.copyright {
+  color: #EAF6F6;
+}
+
+</style>
